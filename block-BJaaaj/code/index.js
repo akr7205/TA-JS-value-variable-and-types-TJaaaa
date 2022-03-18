@@ -8,6 +8,7 @@ firstName="john";
 lastName="snow";
 // alert(firstName+lastName);
 // const fullName=firstName+" "+lastName;
+const fullName=`${firstName} ${lastName}`;
 // alert(fullName);
 let name,newUser,isAdmin;
 name="Arun";
