@@ -6,33 +6,33 @@
   - `if` the number is even print the message " number is even"
   - `if` the number is odd print the message "number is odd"
 */
-// let number=Number(prompt('Enter a number'));
-// if(number%2 === 0)
-// {
-//   console.log(`number is even`);
-// }
-// else{
-//   console.log(`number is odd`);
-// }
+let number=Number(prompt('Enter a number'));
+if(number%2 === 0)
+{
+  console.log(`number is even`);
+}
+else{
+  console.log(`number is odd`);
+}
 
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
 
-// let num1=Number(prompt('Enter a num1'));
-// let num2=Number(prompt('Enter a num2'));
-// if(num1>num2)
-// {
-//   alert(`max value is ${num1}` );
-// }
-// else{
-//   alert(`max value is ${num2}`);
-// }
+let num1=Number(prompt('Enter a num1'));
+let num2=Number(prompt('Enter a num2'));
+if(num1>num2)
+{
+  alert(`max value is ${num1}` );
+}
+else{
+  alert(`max value is ${num2}`);
+}
 
 
 // 3. Convert the above code using`?` terniary operator
 
-// let num1=Number(prompt('Enter  num1'));
-// let num2=Number(prompt('Enter  num2'));
-// num1>num2 ? alert(`max value is ${num1}`) : alert(`max value is ${num2}`) ;
+let num1=Number(prompt('Enter  num1'));
+let num2=Number(prompt('Enter  num2'));
+num1>num2 ? alert(`max value is ${num1}`) : alert(`max value is ${num2}`) ;
 
 /*
 4. Write a program that asks the user for the house name and check the following conditions:
@@ -42,7 +42,7 @@
   - `else` print the message " All men must die"
 */
 
-/*
+
 let housename=prompt("Enter house name");
 if(housename === "stark")
 {
@@ -54,7 +54,7 @@ console.log(" A lannister always pays his debt");
 else{
   console.log(" All men must die");
 }
-*/
+
 
 // 5. Convert the above code using`?` terniary operator
 /*
@@ -67,7 +67,7 @@ housename === "stark" ? console.log(" Winter is coming")
 // Switch
 
 // 6. Write a program that takes the number of the month(1 - 12) and alert number of days in the month.
-/*
+
 let month=Number(prompt('Enter month'));
 switch(month){
    // Cases for 31 Days
@@ -97,7 +97,7 @@ switch(month){
         console.log("Invalid Month.");
       break;
     }
-  */
+  
 
 /* 7.
 - Write a program that take the salery of the user using prompt and alert the in -hand amount.You will find out the in -hand amount by deducting the tax amoun from salery.Conditions are given below.
@@ -106,7 +106,7 @@ switch(month){
   - `Salary > 50000` tax is 30 %
 
 */
-/*
+
 let salary=Number(prompt("Enter the salary"));
 let inhand;
 if(salary<=20000)
@@ -124,7 +124,7 @@ else if(salary>50000)
    inhand=salary-(salary*0.3);
    console.log(`in-hand salary is ${inhand}`);
 }
-*/
+
 
 //  if..else vs switch
 
@@ -139,7 +139,7 @@ Implement the condition give below using`if..else` and`switch` statement.
 */
 
 // if else 
-/*
+
 let marks=Number(prompt("Enter marks"));
 if(marks > 100)
 {
@@ -160,9 +160,9 @@ else if(marks > 30 && marks<50)
 else {
   alert("Grade D");
 }
-*/
+
 // switch 
-/*
+
 let marks=Number(prompt("Enter marks"));
 switch(marks/10){
 
@@ -194,7 +194,7 @@ default:
   break;
   
 }
-*/
+
 
 /* 9. Weather app
 
