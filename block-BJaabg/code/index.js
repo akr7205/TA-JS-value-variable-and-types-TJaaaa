@@ -23,7 +23,13 @@ while (amount < bank_balance) {
     }
 }
 //tax
-amount=amount+(amount*TAX_RATE);
-console.log("total purchased amount"+" "+"$"+amount);
-
+let taxAmount=amount+(amount*TAX_RATE);
+console.log("total purchased amount"+" "+"$"+taxAmount);
+if(taxAmount<bank_balance)
+{
+    console.log("Yo can afford it");
+}
+else{
+    console.log("Yo can not afford it");
+}
 // ⛑ Answer of the above will `$334.76`.
