@@ -10,21 +10,17 @@ Write a program that asks the user his/her age and check for the following condi
 - `if` the age is greater than 55 then print the message " You are too old to participate in the marthon".
 👇
 */
-let age=+prompt("Enter age");
-if(age>=12 && age<=55)
-{
+let age = +prompt("Enter age");
+if (age >= 12 && age <= 55) {
   console.log("You can participate in the marathon");
 }
-if(age>=4 && age<=11)
-{
+if (age >= 4 && age <= 11) {
   console.log(" You are too young to participate in the marathon");
 }
-if(age<=4)
-{
+if (age <= 4) {
   console.log(" Hey Kiddo! Can You Walk ?");
 }
-if(age>55)
-{
+if (age > 55) {
   console.log(" You are too old to participate in the marthon");
 }
 // Loops
@@ -38,14 +34,13 @@ n = 7 => output: heeeeeeello
 */
 // [Your code goes here]
 
-let n=+prompt(`enter a number`);
-let char='';
-for(let i=1;i<=n;i++)
-{
-  char=char+'e';
+let n = +prompt(`enter a number`);
+let char = '';
+for (let i = 1; i <= n; i++) {
+  char = char + 'e';
 
 }
-console.log('h'+char+'llo');
+console.log('h' + char + 'llo');
 
 /*
 Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
@@ -76,6 +71,38 @@ Take a number value from user and alert the message if it matches the conditions
 */
 // [Your code goes here]
 
+let number = +prompt(`Enter the number`);
+switch (number) {
+  case 1:
+    alert(`one`);
+    break;
+  case 2:
+    alert(`Two`);
+    break;
+  case 3:
+    alert(`Third`);
+    break;
+  case 4:
+    alert(`Four`);
+    break;
+  case 5:
+    alert(`Five`);
+    break;
+  case 6:
+    alert(`Six`);
+    break;
+  case 7:
+    alert(`Seven`);
+    break;
+  case 8:
+    alert(`Eight`);
+    break;
+  case 9:
+    alert(`nine`);
+    break;
+  default:
+    alert(`Please try again`);
+}
 /*
 🎖Using switch statement do the following
 
@@ -91,7 +118,7 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 */
 // [Your code goes here]
 let marks = +prompt("Enter marks");
-switch (true                                                                                                                                                      ) {
+switch (true) {
 
   case marks > 90:
     alert("Grade AA");
@@ -132,8 +159,7 @@ switch (true                                                                    
 // [your code goes here]
 let num1 = +prompt(`Enter num1`);
 let num2 = +prompt(`Enter num2`);
-if(num1>num2)
-{
+if (num1 > num2) {
   alert(num1);
 }
 {
@@ -147,14 +173,13 @@ if(num1>num2)
 let num1 = +prompt(`Enter num1`);
 let num2 = +prompt(`Enter num2`);
 let num3 = +prompt(`Enter num3`);
-if (num1>0 && num2>0 && num3>0)
-{
-       alert("The sign is +");
+if (num1 > 0 && num2 > 0 && num3 > 0) {
+  alert("The sign is +");
 }
-else  (num1<0 && num2<0 && num3<0)
-        {
-          alert("The sign is -");
-        }
+else (num1 < 0 && num2 < 0 && num3 < 0)
+{
+  alert("The sign is -");
+}
 
 /* Calculator
  🎖Make a simple calculator with these functions. Using prompt, type conversion, if else statement. Use prompt to take the input from user i.e two numbers and an operation (Add, Sub, Mul, Div).
@@ -171,27 +196,22 @@ else  (num1<0 && num2<0 && num3<0)
 // [Your code goes here]
 let num1 = +prompt(`Enter num1`);
 let num2 = +prompt(`Enter num2`);
-let operator=prompt(`Enter operator`);
-if(operator == `+`)
-{
-  console.log(num1+num2);
+let operator = prompt(`Enter operator`);
+if (operator == `+`) {
+  console.log(num1 + num2);
 }
-else if(operator == `-`)
-{
-  if(num1<num2)
-  {
+else if (operator == `-`) {
+  if (num1 < num2) {
     alert(`Number Two is larger then Number one`);
   }
-  console.log(num1-num2);
+  console.log(num1 - num2);
 }
-else if(operator == `*`)
-{
-  console.log(num1*num2);
+else if (operator == `*`) {
+  console.log(num1 * num2);
 }
-else if(operator == `/`)
-{
-  console.log(num1/num2);
+else if (operator == `/`) {
+  console.log(num1 / num2);
 }
-else{
+else {
   alert('invalid operator');
 }
